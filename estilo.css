@@ -1,0 +1,264 @@
+/*Inicio del CSS*/
+html {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+/*Cuerpo del documento*/
+body {
+    background-image: url("imagenes/3514948.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255,255,255,8);
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+/*Estilo de titulos y demas*/
+    /*Estilo de enlaces*/
+    a:link {
+        text-decoration:none;
+        color: #00008B;
+        background-color: #fff;
+    }
+    a:visited {
+        text-decoration:none;
+        color: #00008B;
+      background-color: #fff;
+    
+    }
+    a:hover {
+      text-decoration:underline;
+      color: #00008B;
+      background-color: #fff;
+    }
+    a:active {
+        text-decoration:underline;
+        color: #00008B;
+      background-color: #fff;
+    }
+    a.contactar:link {
+      text-decoration:none;
+      color: white;
+      background-color: black;
+    }
+    a.contactar:visited {
+        text-decoration:none;
+        color: white;
+      background-color: black;
+    
+    }
+    a.contactar:hover {
+      text-decoration:none;
+      color: white;
+      background-color: black;
+      
+    }
+    a.contactar:active {
+        text-decoration:none;
+        color: white;
+      background-color: black;
+      
+    }
+/*Encabezado*/
+  header{
+      padding: 0;
+      min-height: 49px;
+      min-width: 692px;
+  }
+  div#pri2{
+    margin: 0 auto;
+    width: 100% ;
+    height: 100%;
+    min-height: 81px;
+    max-height: 81px;
+    background: rgba(0,0,0,.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  }
+  div#logo {
+    width: 100%;
+    height: 100%;
+    max-width: 138px;
+    min-height: 81px;
+    float: left;
+  }
+  div#logo2 {
+    width: 100%;
+    height: 100%;
+    max-width: 138px;
+    min-height: 81px;
+    float: left;
+  }
+  div#buscr {
+    width: 100%;
+    height: 100%;
+    max-width: 649px;
+    min-height: 81px;
+    float: left;
+  }
+  /*imagenes*/
+  img#ic1cab {
+    width: 100%;
+    height:100%;
+    max-height: 81px;
+  }
+  img#ic2cab {
+    width: 100%;
+    height:100%;
+    max-height: 81px;
+  }
+/*input*/
+  input#busqueda {
+    width: 448px;
+    height: 60px;
+    border-radius:4px;
+
+  }
+  input#bus {
+    width: 100px;
+    height: 60px;
+    border-radius:4px;
+
+  }
+  .enca{
+    text-align: center;
+  }
+/*Principal parate de la pagina*/
+main{
+    width: 80%;
+    min-height:769px;
+    min-width: 692px;
+    margin:0 auto;
+    text-align: center;
+}
+/*esta parte es del video*/
+  div#videaso{
+    text-align: center;
+    max-width: 1444px;
+    max-height: 300px;
+    min-width: 620px;
+    min-height: 200px;
+    margin: 0 auto;
+  }
+  #videope{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+/*Pequeños divs*/
+  div#menus_cosas{
+    height: 100%;
+    margin: 0 auto;
+    max-width: 807px;
+    min-width: 700px;
+    max-height: 66px;
+    min-height: 63px;
+    font-weight: bold;
+    
+  }
+  #men{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: auto;
+    max-width: 269px;
+    max-height: 63px;
+    min-height: 37px;
+    border-radius:4px;
+    border:3px rgba(124, 124, 124,.0);
+    background-color: rgb(255, 255, 255);
+    display : flex;
+    justify-content : center;
+    align-items: center;
+  }
+  #ofer{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: auto;
+    max-width: 269px;
+    max-height: 63px;
+    min-height: 37px;
+    border-radius:4px;
+    border:3px rgba(124, 124, 124,.0);
+    background-color: #fff;
+    display : flex;
+    justify-content : center;
+    align-items: center;
+  }
+  #promo{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: auto;
+    max-width: 269px;
+    max-height: 63px;
+    min-height: 37px;
+    border-radius:4px;
+    border:3px rgba(124, 124, 124,.0);
+    background-color: #fff;
+    display : flex;
+    justify-content : center;
+    align-items: center;
+  }
+/*esta parte de las imagenes*/
+#co{
+  text-align: left;
+}
+  div#copiar1{
+    text-align: center;
+    margin: 0 auto;
+  }
+  div#copiar1 img{
+    width: 100%;
+    height: 100%;
+    min-height: 130px;
+    min-width: 120px;
+    max-width: 217px;
+  }
+  div.copiar2{
+    text-align: center;
+    margin: 0 auto;
+  }
+  div.copiar2 img{
+    width: 100%;
+    height: 100%;
+    min-height: 130px;
+    min-width: 120px;
+    max-width: 217px;
+  }
+/*Esta es la del objeto*/
+#objeto{
+    text-align: center;
+    margin: 0 auto;
+}
+iframe{
+    max-height:800px;
+    min-height:100px;
+    min-width: 692px;
+    max-width: 1200px;
+}
+/*Pie de pagina*/
+footer{
+    width:100%;
+    min-width:692px;
+    min-height:200px;
+    max-height:200px;
+    background-color: black;
+    margin:0 auto;
+}
+/*Creatividad con los parrafos*/
+p.alinear{
+    font-size: 25px;
+    text-align: right;
+	font-family: inherit;
+	padding-top: 50px;
+	padding-left:10px;
+	padding-right:50px;
+}
+    /*Imagenes del pie de pagina*/
+    img.c{
+        max-width: 100px;
+        max-height: 50px;
+    }
